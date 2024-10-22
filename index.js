@@ -1,10 +1,10 @@
 let increaseButton = document.querySelector('.increase-button');
 let decreaseButton = document.querySelector('.decrease-button');
 let counterText = document.querySelector('.counter');
-let counter = 1;
+let counter = 0;
 
 increaseButton.addEventListener('click', function() {
-    counter++;
+    counter = counter + 1;
     counterText.innerText = counter;
 })
 
